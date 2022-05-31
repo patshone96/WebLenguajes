@@ -1,37 +1,84 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainStyle.css">
+    <title>Pagina principal</title>
+</head>
 
-You can use the [editor on GitHub](https://github.com/patshone96/WebLenguajes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+<body>
+    <ul class="nav">
+        <li>
+            <a href="Principal.html" class="but">Inicio</a>
+        </li>
+        <li> <a href="https://open.spotify.com/playlist/3QjOZTCMTHY9LdGMm4gAAx?si=23ab4fd3de404b74" class="but">Spotify</a></li>
+        <li><a href="httpss://YouTube.com" class="but"> YouTube</a></li>
+        <li> <a href="https://tidal.com/" class="but">Tidal</a></li>
+        <li> <a href="Cuestionario.html" class="but">Votacion</a></li>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+    </ul>
+<header><h1>Portada</h1></header>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<div class= "centro">
 
-```markdown
-Syntax highlighted code block
+<div class="image-grid">
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+    <a href="Ari.html">
+        <img class = "ari" src="Portada_Galeria/Ariana_Grande_Portada.jpeg" alt="">
+    </a>    
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+    <a href="Dua.html">
+        <img class = "dua" src="Portada_Galeria/DUA_LIPA_PORTADA.jpeg" alt="">
+     </a>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+    <a href="Pagina 3.html">
+        <img class = "doja" src="Portada_Galeria/Doja_Cat_Portada.jpeg" alt="">
+    </a>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/patshone96/WebLenguajes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <a href="Pagina 4.html">
+        <img class = "nas" src="Portada_Galeria/Lil_nas_portada.jpeg" alt="">
+    </a>
 
-### Support or Contact
+    <a href="Pagina 5.html">
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <img class = "week" src="Portada_Galeria/The_Weeknd_Portada.jpeg" alt="">
+    </a>
+
+    <a href="Pagina 6.html">
+        <img class = "liz" src="Portada_Galeria/Lizzo_portada.jpeg" alt="">
+
+    </a>   
+
+    <a href="Pagina 7.html">
+
+        <img class = "oli" src="Portada_Galeria/Olivia_rodrigo_portada.jpeg">
+    </a>
+
+    <a href="Pagina 8.html">
+        <img class = "ros" src="Portada_Galeria/Rosalia_Portada.jpeg" alt="">
+    </a>
+
+    <a href="Pagina 9.html">
+        <img  class = "sam" src="Portada_Galeria/Sam_Smith_Portada.jpeg">
+    </a>
+
+
+</div>
+
+</div>
+
+  <hr>
+
+
+    <footer>Contactanos en el email ArtistaDel20@gmail.yes</footer>
+
+    
+</body>
+</html>
