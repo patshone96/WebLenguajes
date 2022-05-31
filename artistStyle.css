@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+
+
+}
+
+.portada >img{
+    height: 200px;
+    width: 200px;
+    transition: 0.5s;
+
+
+
+}
+
+.portada >img:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    transition: 0.5s;
+
+
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: var(--color0);
+    -webkit-text-stroke: var(--color8) 0.2px ; 
+    text-shadow: 1px 1px 7px var(--color7);
+    font-size: 3rem;
+
+
+
+
+}
+
+.centro_tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+}
+
+
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: black double 2px; 
+    width: 900px;
+
+
+
+}
+
+tbody{
+
+    text-align: center;
+    
+
+}
+
+th{
+    letter-spacing: 0.2px;
+    padding: 10px;
+    text-decoration: none;
+    border: black double 2px; 
+    font-size: 2rem;
+    
+
+
+}
+
+td > a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--color8);
+    
+
+
+
+}
+
+td > a:hover{
+    transition: 0.5s;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: var(--color1);
+    -webkit-text-stroke: 1px var(--color8);
+
+
+
+
+}
+
+tbody{
+    background-image: var(--gradient1);
+    
+    
+
+
+}
+
+
+
+
+
+td{
+
+    border: black double 2px; 
+    font-size: 2rem;
+}
+
+
+
+caption{
+
+    font-size: 4rem;
+    color:var(--color0);
+    text-shadow: 1px 1px 10px var(--color7);
+    letter-spacing: 5px;
+    padding: 20px 0 30px 0;
+
+
+}
+
+.biblio{
+    text-align: justify;
+
+
+}
+
+.biblio > p{
+    
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+
+}
+
+.biblio > p::first-letter{
+    font-size: 30px;
+    color:var(--color0);
+    text-shadow: 1px 1px 10px var(--color7);
+    letter-spacing: 5px;
+    float: left;
+    padding: 4px;
+
+
+
+}
+
+
+ul.nav2{
+    list-style-type: none;
+  
+
+   
+
+
+
+}
+
+ul.nav2 li{
+
+    display: inline;
+      
+    
+}
+
+ul.nav2 a{
+   
+   
+   background-image: var(--gradient1);
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 100% auto;
+   color: var(--color8);            
+   border-radius: 4px;
+   padding: 10px;
+   text-decoration: none;
+   font-family: var(--font1);
+   
+   
+    
+
+
+
+}
+
+ul.nav2{
+    list-style: none;
+    padding-left: 0;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    
+    
+
+
+
+}
+
+@media screen and (max-width:900px) {
+
+
+    ul.nav2 li{
+
+        display: block;
+        line-height: 70px;
+       
+    }
+
+    ul.nav2{
+        margin-left: 0;
+        list-style: none;
+        padding-left: 0;
+        padding-top: 6px;
+        padding-bottom: 5px;
+        border-bottom: none;
+    }
+
+    .portada >img:hover{
+        height: 400px;
+        width: 400px;
+    
+    
+    }
+    
+    table{
+         
+        width: 700px;
+        
+        }
+
+    caption{
+
+        font-size: 3rem;
+
+        }
+    
+    th{
+           
+            font-size: 1.8rem;
+            
+        
+        
+        }
+    
+    td > a{
+            font-size: 1.5rem;
+           
+        }
+        
+    td > a:hover{
+            transition: 0.5s;
+            font-size: 1.8rem;
+            text-decoration: none;
+            color: var(--color1);
+            -webkit-text-stroke: 1px var(--color8);
+        
+        
+        
+        
+        }
+    
+    td{
+
+            
+            font-size: 1.5rem;
+        }
+
+
+}
+
+
+
+@media screen and (max-width:500px) {
+    
+    ul.nav2 li{
+
+        display: block;
+        line-height: 70px;
+        
+
+        
+    }
+
+
+    ul.nav2{
+        margin-left: 0;
+        list-style: none;
+        padding-left: 0;
+        padding-bottom: 5px;
+        border-bottom: none;
+    }
+
+    .portada >img:hover{
+        height: 200px;
+        width: 200px;
+    
+    
+    }
+
+    table{
+         
+        width: 400px;
+    
+    }
+
+    caption{
+
+        font-size: 2rem;
+       
+    
+    
+    }
+
+    th{
+           
+        font-size: 1.5rem;
+        
+    
+    
+    }
+
+    td > a{
+        font-size: 1rem;
+       
+    
+    
+    
+    }
+    
+    td > a:hover{
+        transition: 0.5s;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: var(--color1);
+        -webkit-text-stroke: 1px var(--color8);
+    
+    
+    
+    
+    }
+
+    td{
+
+            
+        font-size: 1rem;
+    }
+        
+    
+    
+    
+
+}
+
