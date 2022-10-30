@@ -1,135 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mainStyle.css">
-    <link rel="stylesheet" href="QuestionaryStyle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mainStyle.css" />
+    <link rel="stylesheet" href="QuestionaryStyle.css" />
     <title>Cuestionario</title>
-</head>
-<body>
+  </head>
+  <body>
     <ul class="nav">
-        <li>
-            <a href="index.html" class="but">Inicio</a>
-        </li>
-        <li>
-          <a href="httpss://YouTube.com" class="but"> YouTube</a>
-        </li>
-        <li>
-           <a href="https://open.spotify.com/playlist/3QjOZTCMTHY9LdGMm4gAAx?si=23ab4fd3de404b74" class="but">Spotify</a>
-          </li>
-        <li> 
-          <a href="Cuestionario.html" class="but">Votacion</a>
-        </li>
-        <li>
-          <a href="" class="but">Contacto</a>
-        </li>
-
+      <li>
+        <a href="index.html" class="but">Inicio</a>
+      </li>
+      <li>
+        <a href="httpss://YouTube.com" class="but"> YouTube</a>
+      </li>
+      <li>
+        <a
+          href="https://open.spotify.com/playlist/3QjOZTCMTHY9LdGMm4gAAx?si=23ab4fd3de404b74"
+          class="but"
+          >Spotify</a
+        >
+      </li>
+      <li>
+        <a href="Cuestionario.html" class="but">Votacion</a>
+      </li>
+      <li>
+        <a href="" class="but">Contacto</a>
+      </li>
     </ul>
 
-  <h1>Vota Tus Artistas Pop</h1>
+    <h1>Vota Tus Artistas Pop</h1>
 
+    <div class="centrar">
+      <form name="formulario" method="get" action=""></form>
 
-  <div class="centrar">
+      <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" autofocus required />
+      </p>
 
-    <form name= "formulario" method= "get" action=""></form>
+      <p>
+        <label for="nombre">Correo Electrónico</label>
+        <input type="email" name="email" id="email" />
+      </p>
 
+      <p>
+        <label for="fecha_nacim">Fecha Nacimiento</label>
+        <input type="date" />
+      </p>
 
-  <p>
-    <label for="nombre">Nombre</label> 
-    <input type="text" name="nombre" id="nombre" autofocus required/>
-  </p>
+      <p>
+        <label for="sexoH">Sexo</label>
+        <input type="radio" name="sexo" value="H" id="sexoH" /> Hombre
+        <input type="radio" name="sexo" value="M" id="sexoM" /> Mujer
+        <input type="radio" name="sexo" value="N" id="sexoN" /> Otros
+      </p>
 
-  <p>
-    <label for="nombre">Correo Electrónico</label> 
-    <input type="email" name="email" id="email"/>
-  </p>
-
-  <p>
-    <label for="fecha_nacim">Fecha Nacimiento</label> 
-    <input type="date">
-  </p>
-
-  <p>
-    <label for="sexoH">Sexo</label>
-      <input type="radio" name="sexo" value="H" id="sexoH" /> Hombre
-      <input type="radio" name="sexo" value="M" id="sexoM" /> Mujer
-      <input type="radio" name="sexo" value="N" id="sexoN" /> Otros
-  </p>
-
-  <p>
-    <label for="artista"> Mejor Artista </label>
-        <select name="artista" id="artista" >
-        <option value="1">Ariana Grande</option>
-        <option value="2">Dua Lipa</option>
-        <option value="3">Doja Cat</option>
-        <option value="4">Lil Nas X</option>
-        <option value="5">Lizzo</option>
-        <option value="6">Olivia Rodrigo</option>
-        <option value="7">Sam Smith</option>
-        <option value="8">Rosalía</option>
-        <option value="9">The Weeknd</option>
+      <p>
+        <label for="artista"> Mejor Artista </label>
+        <select name="artista" id="artista">
+          <option value="Ariana Grande">Ariana Grande</option>
+          <option value="Dua Lipa">Dua Lipa</option>
+          <option value="Doja Cat">Doja Cat</option>
+          <option value="Lil Nas X">Lil Nas X</option>
+          <option value="Lizzo">Lizzo</option>
+          <option value="Olivia Rodrigo">Olivia Rodrigo</option>
+          <option value="Sam Smith">Sam Smith</option>
+          <option value="Rosalía">Rosalía</option>
+          <option value="The Weeknd">The Weeknd</option>
+        </select>
+      </p>
+      <label for="disco"> Mejor Disco </label>
+      <select name="disco" id="disco">
+        <option value="Positions">Positions</option>
+        <option value="Future Nostalgia">Future Nostalgia</option>
+        <option value="Planet Her">Planet Her</option>
+        <option value="Montero">Montero</option>
+        <option value="Cuz I love You">Cuz I Love You</option>
+        <option value="SOUR">SOUR</option>
+        <option value="Love Goes">Love Goes</option>
+        <option value="El Mal Querer">El Mal Querer</option>
+        <option value="Dawn FM">Dawn FM</option>
       </select>
 
-  </p>
-    <label for="disco"> Mejor Disco </label>
-      <select name="disco" id="disco" >
-          <option value="1">Positions</option>
-          <option value="2">Future Nostalgia</option>
-          <option value="3"> Planet Her </option>
-          <option value="4">Montero</option>
-          <option value="5">Cuz I Love You</option>
-          <option value="6">SOUR</option>
-          <option value="7">Love Goes</option>
-          <option value="8">El Mal Querer</option>
-          <option value="9">Dawn FM</option>
-      </select>
+      <p>
+        <label for="cancion"> Mejor Cancion </label>
+        <textarea name="mejorcancion" id="mejorcancion"></textarea>
+      </p>
 
-  <p>
-    <label for="cancion">
-      Mejor Cancion 
-    </label> 
-    <textarea name="mejorcancion" id="mejorcancion"></textarea>
+      <p>
+        <input type="checkbox" name="check1" id="check1" />
+        <label for="check1">
+          Deseo recibir información sobre los resultados de esta votación
+        </label>
+      </p>
 
-  </p>
+      <p>
+        <input type="checkbox" name="check2" id="check2" />
+        <label for="check2"
+          >Declaro haber leído y aceptar las condiciones generales de la web y
+          la normativa sobre protección de datos
+        </label>
+      </p>
 
-  <p>
-    <label for="historia"> 
-      Cuentanos algo interesante 
-    </label>
-    <textarea name="historia" id="historia"></textarea>
+      <p><button id="submit">Submit</button> <input type="reset" /></p>
 
-  </p>
+      <div id="result"></div>
+    </div>
 
-  <p>
-    <input type="checkbox" name="check1" id="check1">
-    <label for="check1">
-      Deseo recibir información sobre los resultados de esta votación
-    </label>
+    <footer>Contactanos en el email ArtistaDel20@gmail.yes</footer>
 
-  </p>
-   
-
-  <p>
-    <input type="checkbox" name="check2" id="check2">
-    <label for="check2">Declaro haber leído y aceptar las condiciones 
-      generales de la web y la normativa sobre protección de datos
-    </label>
-
-  </p>
-   
-  <p>
-    <input type="submit"> <input type="reset">
-
-  </p>    
-    
-
-  
-
-
-
-</div>
-  <footer>Contactanos en el email ArtistaDel20@gmail.yes</footer>
-</body>
+    <script src="functions.js"></script>
+  </body>
 </html>
