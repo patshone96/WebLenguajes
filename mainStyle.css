@@ -1,5 +1,5 @@
 :root{
-    --gap: 16px;
+    --gap: 2rem;
     --col: 3;
     --row-height: 400px;
     --color0: white; 
@@ -32,11 +32,22 @@ h1{
     text-align: center;
     font-family: var(--font1);
     color: white;
-    -webkit-text-stroke: 3px var(--color8); 
+    -webkit-text-stroke: 3px var(--color8);
+ 
 
 
 }
 
+h1:hover{
+    font-size: 4rem;
+    text-align: center;
+    font-family: var(--font1);
+    color: var(--color8);
+    -webkit-text-stroke: 3px var(--color0);
+ 
+
+
+}
 
 
 .centro{
@@ -70,8 +81,9 @@ h1{
     width: 100%;
     height: 100%;
     border-radius: 10px;
-    background-size: cover;
-    transition: 0.5s;
+    background-size: contain;
+    transition: 0.3s ease-in-out;
+
 
 }
 
@@ -79,11 +91,11 @@ h1{
     width: 102%;
     height: 102%;
     border-radius: 20px;
-    background-size: cover;
-    transition: 0.5s;
+    background-size: contain;
+    border: 5px var(--color7) solid;
+    transition: 0.3s ease-in-out;
 
 }
-
 
 
 .dua {
@@ -196,7 +208,7 @@ ul.nav{
     padding-left: 0;
     padding-top: 6px;
     padding-bottom: 5px;
-    
+
     
 
 
@@ -204,11 +216,11 @@ ul.nav{
 }
 
 a.but:hover{
-    background-image: var(--gradient2);
-    color:var(--color1);
-    transition: 0.2s;
+    
+    color:var(--color8);
+    transition: 0.2s ease;
     border: 2px solid var(--color8);
-    -webkit-text-stroke: black 0.3px;
+    -webkit-text-stroke: var(--color3) 0.2px;
 
    
 
