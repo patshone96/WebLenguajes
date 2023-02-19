@@ -1,84 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="mainStyle.css">
-    <title>Pagina principal</title>
-</head>
+# Web Lenguajes 
 
-<body>
-    <ul class="nav">
-        <li>
-            <a href="Principal.html" class="but">Inicio</a>
-        </li>
-        <li> <a href="https://open.spotify.com/playlist/3QjOZTCMTHY9LdGMm4gAAx?si=23ab4fd3de404b74" class="but">Spotify</a></li>
-        <li><a href="httpss://YouTube.com" class="but"> YouTube</a></li>
-        <li> <a href="https://tidal.com/" class="but">Tidal</a></li>
-        <li> <a href="Cuestionario.html" class="but">Votacion</a></li>
+## Click the image to go to the page :D 
 
+![https://github.com/patshone96/WebLenguajes/blob/main/Captura%20de%20pantalla%202023-02-19%20a%20las%2017.05.52.png](https://patshone96.github.io/WebLenguajes/)
 
-    </ul>
-<header><h1>Portada</h1></header>
+## This is a project done during an IT course and it shows how basic HTML5 and CSS3 knowledge can make great, functional web pages 
+### It has a responsive interface, implementing self-built grids and navigation bars.  
 
-<div class= "centro">
+In the future, i'd like to improve this project to add JS, Bootstrap and other technologies and frameworks I've learnt and which are displayed through my other repositories 
 
-<div class="image-grid">
+## [Interfaces](https://github.com/patshone96/Interfaces)
 
-
-
-    <a href="Ari.html">
-        <img class = "ari" src="Portada_Galeria/Ariana_Grande_Portada.jpeg" alt="">
-    </a>    
-
-
-    <a href="Dua.html">
-        <img class = "dua" src="Portada_Galeria/DUA_LIPA_PORTADA.jpeg" alt="">
-     </a>
-
-    <a href="Pagina 3.html">
-        <img class = "doja" src="Portada_Galeria/Doja_Cat_Portada.jpeg" alt="">
-    </a>
-
-
-    <a href="Pagina 4.html">
-        <img class = "nas" src="Portada_Galeria/Lil_nas_portada.jpeg" alt="">
-    </a>
-
-    <a href="Pagina 5.html">
-
-        <img class = "week" src="Portada_Galeria/The_Weeknd_Portada.jpeg" alt="">
-    </a>
-
-    <a href="Pagina 6.html">
-        <img class = "liz" src="Portada_Galeria/Lizzo_portada.jpeg" alt="">
-
-    </a>   
-
-    <a href="Pagina 7.html">
-
-        <img class = "oli" src="Portada_Galeria/Olivia_rodrigo_portada.jpeg">
-    </a>
-
-    <a href="Pagina 8.html">
-        <img class = "ros" src="Portada_Galeria/Rosalia_Portada.jpeg" alt="">
-    </a>
-
-    <a href="Pagina 9.html">
-        <img  class = "sam" src="Portada_Galeria/Sam_Smith_Portada.jpeg">
-    </a>
-
-
-</div>
-
-</div>
-
-  <hr>
-
-
-    <footer>Contactanos en el email ArtistaDel20@gmail.yes</footer>
-
-    
-</body>
-</html>
+## [Adroid Development](https://github.com/patshone96/Android_Apps)
